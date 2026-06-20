@@ -1,0 +1,185 @@
+{
+  "project_name": "InAmigos Foundation Website",
+  "domain": "NGO, Non-Profit, Education, Community Wellbeing",
+  "theme": "light",
+  "archetype": {
+    "id": 1,
+    "name": "Organic & Earthy",
+    "vibe": "Editorial, hopeful, trustworthy, grounded. Escaping the generic 'Bootstrap charity' feel by using magazine-like typography, warm textural colors, and intimate photography."
+  },
+  "typography": {
+    "font_families": {
+      "heading": "Cormorant Garamond, serif",
+      "body": "Outfit, sans-serif",
+      "accent": "Outfit, sans-serif"
+    },
+    "hierarchy_rules": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl font-light tracking-tighter leading-none text-charcoal",
+      "h2": "text-4xl sm:text-5xl font-normal tracking-tight leading-tight text-charcoal",
+      "h3": "text-2xl sm:text-3xl font-medium tracking-tight text-charcoal",
+      "body": "text-base lg:text-lg leading-relaxed text-olive",
+      "overline": "text-xs font-bold uppercase tracking-[0.2em] text-forest"
+    }
+  },
+  "color_palette": {
+    "background": {
+      "primary": "#F9F6F0",
+      "secondary": "#F2EFE9",
+      "dark_section": "#0F1F17"
+    },
+    "brand": {
+      "primary": "#1B9B6A",
+      "accent_vivid": "#26C281",
+      "forest": "#114D32"
+    },
+    "text": {
+      "primary_light_bg": "#1A211D",
+      "secondary_light_bg": "#3A453F",
+      "primary_dark_bg": "#FFFFFF",
+      "secondary_dark_bg": "#A0B3AA"
+    },
+    "borders": {
+      "light": "#E5E0D8",
+      "dark": "#1E3327"
+    }
+  },
+  "layout_spacing": {
+    "section_padding": "py-24 md:py-32",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "grid_gaps": "gap-8 md:gap-12",
+    "component_padding": "p-8 md:p-12",
+    "border_radius": "rounded-3xl"
+  },
+  "component_strategies": {
+    "header": {
+      "style": "Glassmorphism: backdrop-blur-xl bg-[#F9F6F0]/80 border-b border-[#E5E0D8]",
+      "behavior": "Sticky top-0, z-50",
+      "utility_bar": "bg-[#114D32] text-white text-xs py-2 text-center uppercase tracking-wider"
+    },
+    "cards": {
+      "causes": "bg-white border border-[#E5E0D8] rounded-3xl overflow-hidden hover:-translate-y-1 transition-transform duration-300",
+      "volunteers": "bg-[#F2EFE9] border border-[#E5E0D8] rounded-3xl p-6 flex flex-col items-center text-center",
+      "testimonials": "bg-[#0F1F17] text-[#F9F6F0] rounded-3xl p-8 md:p-12"
+    },
+    "buttons": {
+      "primary": "bg-[#26C281] text-white rounded-full px-8 py-4 font-medium hover:bg-[#1B9B6A] transition-colors shadow-sm",
+      "secondary": "bg-transparent border border-[#1B9B6A] text-[#1B9B6A] rounded-full px-8 py-4 font-medium hover:bg-[#1B9B6A] hover:text-white transition-colors",
+      "white": "bg-white text-[#114D32] rounded-full px-8 py-4 font-medium hover:bg-[#F2EFE9] transition-colors"
+    },
+    "inputs": {
+      "style": "bg-transparent border-b border-[#1A211D]/20 rounded-none px-0 py-3 focus:border-[#26C281] focus:ring-0 transition-colors w-full placeholder-[#1A211D]/40 text-[#1A211D]"
+    }
+  },
+  "motion_guidelines": {
+    "scroll": "Lenis smooth scroll is MANDATORY for premium feel.",
+    "reveal": "Framer Motion: initial opacity-0 y-12, whileInView opacity-1 y-0, duration 0.6s, ease-out.",
+    "stagger": "Grid children should stagger by 0.1s on entrance."
+  },
+  "sections_blueprint": [
+    {
+      "name": "Top Utility Bar",
+      "content": "support@inamigosfoundation.org.in | Help Line"
+    },
+    {
+      "name": "Header",
+      "content": "Logo + Nav Links + Donate CTA"
+    },
+    {
+      "name": "Hero",
+      "layout": "50/50 split or overlapping text on image. H1: 'Nurturing Young Minds, Building Bright Futures'. Tagline: BACHPANSALA project. Dual CTAs.",
+      "visuals": "Large rounded image (max-h-[80vh] object-cover)."
+    },
+    {
+      "name": "Impact Stats",
+      "layout": "Dark background (#0F1F17). 4 columns grid. Large numbers (68, 28, 6, 42000) using animated counter. Labels: Volunteers, States, Causes, Beneficiaries."
+    },
+    {
+      "name": "About / Mission",
+      "layout": "Asymmetric text layout with rich typography. Large drop cap or highlighted text."
+    },
+    {
+      "name": "Causes / Campaigns",
+      "layout": "Bento Grid (Mode A). 6 items: Education, Healthcare, Women Empowerment, Environment, Rural Development, Skill Training."
+    },
+    {
+      "name": "Events",
+      "layout": "Card showing 'International Day of Happiness 2025' with date and green 'Read More' CTA."
+    },
+    {
+      "name": "Our Volunteers",
+      "layout": "4-column grid. Portrait photos. Feature 'Faiz Khan - Volunteer Supervisor'."
+    },
+    {
+      "name": "Donate / Volunteer (Forms)",
+      "layout": "Side-by-side or stacked on a warm background block. Donate: Fixed amounts buttons + custom input. Volunteer: Clean minimal line-inputs."
+    },
+    {
+      "name": "Footer",
+      "layout": "Dark or very dark green background. Massive 'InAmigos' typography."
+    }
+  ],
+  "media": {
+    "hero": [
+      {
+        "url": "https://images.pexels.com/photos/3867469/pexels-photo-3867469.jpeg",
+        "description": "Happy boy in school uniform"
+      }
+    ],
+    "causes": [
+      {
+        "url": "https://images.pexels.com/photos/18449721/pexels-photo-18449721.jpeg",
+        "title": "Education"
+      },
+      {
+        "url": "https://images.pexels.com/photos/6646852/pexels-photo-6646852.jpeg",
+        "title": "Healthcare"
+      },
+      {
+        "url": "https://images.pexels.com/photos/36746080/pexels-photo-36746080.jpeg",
+        "title": "Women Empowerment"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1780504862918-4af793b70852?crop=entropy&cs=srgb&fm=jpg",
+        "title": "Environment"
+      },
+      {
+        "url": "https://images.pexels.com/photos/36739282/pexels-photo-36739282.jpeg",
+        "title": "Rural Development"
+      },
+      {
+        "url": "https://images.pexels.com/photos/32285450/pexels-photo-32285450.jpeg",
+        "title": "Skill Training"
+      }
+    ],
+    "volunteers": [
+      {
+        "url": "https://images.unsplash.com/photo-1760731720732-b63d2110a868",
+        "name": "Faiz Khan"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7326448/pexels-photo-7326448.jpeg",
+        "name": "Volunteer 2"
+      },
+      {
+        "url": "https://images.pexels.com/photos/29601839/pexels-photo-29601839.jpeg",
+        "name": "Volunteer 3"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1672075270227-ddf5cb181a79",
+        "name": "Volunteer 4"
+      }
+    ]
+  },
+  "testing_attributes": {
+    "mandatory": true,
+    "pattern": "data-testid=\"{role}-{element}\"",
+    "examples": ["data-testid=\"donate-cta-button\"", "data-testid=\"volunteer-submit-button\"", "data-testid=\"hero-donate-button\""]
+  },
+  "anti_patterns": [
+    "Do NOT use pure #000000 or #FFFFFF. Use the defined palette.",
+    "Do NOT use Inter or Roboto for headings. Cormorant Garamond is mandatory.",
+    "Do NOT center align heavy text blocks. Left align for readability.",
+    "Do NOT use heavy drop shadows on cards. Rely on 1px borders and background contrast.",
+    "Do NOT use emojis anywhere in the UI."
+  ]
+}
